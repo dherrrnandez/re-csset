@@ -1,10 +1,10 @@
-# **re-csset**
+# **re-csset** 🤌
 
 An updated CSS Reset wich overrides the default browser styles
 
-This makes styling way easier and cross-browser by default
+This makes styling way easier and cross-browser by default 👏
 
-## How to Install
+## How to Install 💅
 
 With [NPM](http://npmjs.com):
 
@@ -17,11 +17,11 @@ or
 npm i re-csset
 ```
 
-## How to use it
+## How to use it 💅
 
 We want a reset to be a base where to work on
 
-Therefore, we have to **APPLY RE-CSSET BEFORE ANY OTHER STYLE**
+Therefore, we have to **APPLY RE-CSSET BEFORE ANY OTHER STYLE** 👈
 
 Otherwise, the reset will override your project styles
 
@@ -29,7 +29,7 @@ We strongly recommend to use a modern file structure for styling
 
 This will make it easier to avoid specificity problems and bugs in general
 
-## Importing:
+## Importing 💅
 
 In **React**:
 ```javascript
