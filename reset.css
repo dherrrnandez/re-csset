@@ -1,8 +1,10 @@
-/* RE-CSSET By Daniel Hernandez @dherrrnandez */
+/* 
+    re-csset By Daniel Hernandez @dherrrnandez 
+    github repo: https://github.com/dherrrnandez/re-csset/
+*/
 
 :root {
     font-synthesis: none;
-    text-rendering: optimizeLegibility;
 }
 
 * {
@@ -10,12 +12,17 @@
     padding: 0;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html,
 body {
     height: 100%;
     line-height: 1.25;
     scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
 }
 
 input,
@@ -30,6 +37,12 @@ fieldset {
     font-family: inherit;
     font-size: inherit;
     text-transform: none;
+}
+
+input,
+textarea {
+    -webkit-user-select: auto;
+    user-select: auto;
 }
 
 img,
@@ -49,6 +62,11 @@ a {
     background-color: transparent;
 }
 
+a,
+button {
+    cursor: pointer;
+}
+
 b,
 strong {
     font-weight: bolder;
@@ -65,20 +83,20 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: inherit;
+    font-size: 1rem;
     font-weight: inherit;
     overflow-wrap: break-word;
 }
 
 ul,
 ol,
-dd {
+dd,
+menu {
     list-style: none;
 }
 
-*::after,
-*::before {
-    box-sizing: border-box;
+::placeholder {
+    color: unset;
 }
 
 [hidden] {
