@@ -26,22 +26,22 @@ We strongly recommend to use a modern file structure for styling. This will make
 The easiest way is to import in JavScript
 
 In the main entry file with **JavaScript**:
-```
+```javascript
 import "/re-csset/reset.css"
 ```
 
 In **React**:
-```
+```javascript
 import "re-csset/reset.css"
 ```
 
 In the main entry **CSS**
-```
+```css
 @import './node_modules/re-csset/reset.css'
 ```
 
 In **HTML**
 
-```
+```html
 <link rel="stylesheet"href="./node_modules/re-csset/reset.css">
 ```
