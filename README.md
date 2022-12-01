@@ -36,12 +36,12 @@ In **React**:
 import "re-csset/reset.css"
 ```
 
-In the main entry **SASS**
+In **SASS**
 ```scss
 @use '../node_modules/re-csset/reset.css'
 ```
 
-In the main entry **CSS**
+In **CSS**
 ```css
 @import '../node_modules/re-csset/reset.css'
 ```
