@@ -1,0 +1,14 @@
+{
+  "name": "re-csset",
+  "version": "1.0.0",
+  "description": "CSS Reset made simple. 2022",
+  "main": "re-csset",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css-reset"
+  ],
+  "author": "Daniel Hernandez",
+  "license": "MIT"
+}
