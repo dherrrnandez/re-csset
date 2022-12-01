@@ -1,6 +1,7 @@
 # RE-CSSET
 
 An updated CSS Reset wich overrides the default browser styles
+
 This makes styling way easier and cross-browser by default
 
 ## How to Install
@@ -18,11 +19,14 @@ npm i re-csset
 
 ## How to use it
 
-We want a reset to be a base where to work on.
-Therefore, we have to **APPLY RE-CSSET BEFORE ANY OTHER STYLE**.
-Otherwise, the reset will override your project styles.
+We want a reset to be a base where to work on
 
-We strongly recommend to use a modern file structure for styling.
+Therefore, we have to **APPLY RE-CSSET BEFORE ANY OTHER STYLE**
+
+Otherwise, the reset will override your project styles
+
+We strongly recommend to use a modern file structure for styling
+
 This will make it easier to avoid specificity problems and bugs in general
 
 ### Importing:
