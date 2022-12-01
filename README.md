@@ -23,21 +23,19 @@ We strongly recommend to use a modern file structure for styling. This will make
 
 ### Importing:
 
-The easiest way is to import in JavScript
-
-In the main entry file with **JavaScript**:
-```javascript
-import "/re-csset/reset.css"
-```
-
 In **React**:
 ```javascript
 import "re-csset/reset.css"
 ```
 
+In the main entry **SASS**
+```scss
+@use '../node_modules/re-csset/reset.css'
+```
+
 In the main entry **CSS**
 ```css
-@import './node_modules/re-csset/reset.css'
+@import '../node_modules/re-csset/reset.css'
 ```
 
 In **HTML**
