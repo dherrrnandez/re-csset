@@ -1,4 +1,4 @@
-# **re-csset** 🤌
+# The **re-csset** Reset 🤌
 
 An updated CSS Reset wich overrides the default browser styles
 
