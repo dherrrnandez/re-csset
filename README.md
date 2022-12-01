@@ -29,7 +29,7 @@ We strongly recommend to use a modern file structure for styling
 
 This will make it easier to avoid specificity problems and bugs in general
 
-### Importing:
+## Importing:
 
 In **React**:
 ```javascript
